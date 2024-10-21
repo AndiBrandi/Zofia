@@ -1,0 +1,1 @@
+cmd /k npx tsx src/index.ts
