@@ -5,3 +5,5 @@
 - 📚Enqueueing songs when something is being played at the moment
 - ⏯️Skipping/Pausing/Resuming tracks
 - 🪛Applying audio filters to the songs (WIP)
+
+The raw music streaming is done by [discord-player](https://www.npmjs.com/package/discord-player)
