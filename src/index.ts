@@ -52,4 +52,4 @@ client.once('ready', async () => {
 
 //#endregion
 
-client.login(client.loginToken);
+await client.login(client.loginToken);

@@ -5,10 +5,10 @@ import {BotClient} from "../types/BotClient";
 import {config} from "../config";
 
 
-const templateCommand: Command = {
+const skipCommand: Command = {
     data: new SlashCommandBuilder()
         .setName("skip")
-        .setDescription("This is a template Command"),
+        .setDescription("Skips to the next song in queue"),
 
     async execute(interaction: CommandInteraction, client: BotClient) {
 
@@ -18,4 +18,4 @@ const templateCommand: Command = {
 
     }
 };
-export default templateCommand;
+export default skipCommand;
